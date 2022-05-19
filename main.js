@@ -14,7 +14,7 @@ function generatebars() {
   }
 if (min>-101  && max<101 && max>=min && num>-1 && num<41 && Number.isInteger(num) && Number.isInteger(max) && Number.isInteger(min) ) {
   
-  
+  max= max+1;
   for (let i = 0; i < num; i += 1) { 
     const value = Math.floor(Math.random() * (max - min) + min); 
     const bar = document.createElement("div");
@@ -121,7 +121,7 @@ async function SelectionSort(delay = 300) {
   }
 } 
 
-//generatebars(quantity,min, max); 
+
  
  function generate() 
 { 
