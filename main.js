@@ -38,7 +38,7 @@ if (min>-101  && max<101 && max>=min && num>-1 && num<41 && Number.isInteger(num
   console.log(tmp + 'px');
 } 
 else{
-  alert("Invalid parameters of array. Quantity from 0 to 40. Elements from -100 to 100. They need to be integers. Minimum less then maximum.");
+  alert("Invalid parameters of array. Try again. Quantity from 0 to 40. Elements from -100 to 100. They need to be integers. Minimum less then maximum.");
   return;
 }
 }
