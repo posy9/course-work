@@ -12,14 +12,14 @@ function generatebars() {
   while (myNode.firstChild) {
       myNode.removeChild(myNode.firstChild);
   }
-if (min>-101  && max<101 && max>min && num>-1 && num<41 && Number.isInteger(num) && Number.isInteger(max) && Number.isInteger(min)) {
+if (min>-101  && max<101 && max>=min && num>-1 && num<41 && Number.isInteger(num) && Number.isInteger(max) && Number.isInteger(min) ) {
   
-
+  
   for (let i = 0; i < num; i += 1) { 
-    const value = Math.floor(Math.random() * 2*max) +min; 
+    const value = Math.floor(Math.random() * (max - min) + min); 
     const bar = document.createElement("div");
     bar.classList.add("bar");
-    bar.style.height = `${value * 2+150}px`;  
+    bar.style.height = `${value +100}px`;  
 
    
     bar.style.transform = `translateX(${i * 40}px)`; 
