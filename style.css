@@ -47,7 +47,10 @@ input{
   }
 .info{
     margin: 0 auto;
-    width: 600px;
+    width: 400px;
+    font-weight: bolder; 
+    background-color: #6f459e; 
+    color: white; 
 }
 
 .data-container { 
@@ -104,11 +107,11 @@ input{
 
     border: white; 
 
-    margin-left: 43vw; 
+    margin-left:40vw; 
 
     margin-top: 4vw; 
 
-    margin-right: 1vw; 
+    margin-right: 2vw; 
 } 
 
 .btn2 { 

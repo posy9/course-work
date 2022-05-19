@@ -19,7 +19,7 @@ if (min>-101  && max<101 && max>min && num>-1 && num<41 && Number.isInteger(num)
     const value = Math.floor(Math.random() * 2*max) +min; 
     const bar = document.createElement("div");
     bar.classList.add("bar");
-    bar.style.height = `${value * 2+170}px`;  
+    bar.style.height = `${value * 2+150}px`;  
 
    
     bar.style.transform = `translateX(${i * 40}px)`; 
