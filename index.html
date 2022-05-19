@@ -38,10 +38,18 @@
 
    <section class="head">Selection Sort Visualizer</section> 
 
-   <section class="data-container"></section>  
+   <section class="data">
+     <div class="data-container"></div>
+   </section>  
+   <div class="inp">
+    <label for="min"> Min value of element:<input type="text" name="min" id="min" value="-10"></label>
+    <label for="max"> Max value of element:<input type="text" name="max" id="max" value="10"></label>
+    <label for="quantity"> Quantity of Elements:<input type="text" name="quantity" id="quantity" value="10"></label>
+    <label for="speed"> Speed of animation:<input type="text" name="speed" id="speed" value="0.1"></label>
+   </div>
 
       
-
+   <div class="btn">
    <button  class="btn1" onclick="generate()" id="Button1" > 
 
      Generate New Array</button>    
@@ -50,9 +58,17 @@
 
    <button class="btn2" 
 
-           onclick="SelectionSort(),disable()" id="Button2" > 
+           onclick="SelectionSort()" id="Button2" > 
 
      Selection Sort</button> 
+   </div>
+   <div class="info">
+    <p> Red color of elemet- minimum element to swap. </p>
+    <p>Green color of elements-sorted elements.</p>
+    <p>Darkblue color of element-element to compare on given iteration.</p>
+   
+   </div>
+
 
   </body> 
 

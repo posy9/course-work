@@ -34,22 +34,36 @@ body {
     font-weight: bolder; 
 } 
 
-  
+input{
+    max-width: 100px;
+    margin: 5px 0px;
+}
+.inp{
+      display: flex;
+      flex-direction: column;
+      max-width: 300px;
+      
+      margin: 0 auto;
+  }
+.info{
+    margin: 0 auto;
+    width: 600px;
+}
+
 .data-container { 
-
-    width: 600px; 
-
+    
+    
     height: 384px; 
-
     position: relative; 
+    
 
-    margin: 0 auto; 
+ 
 } 
 
   
 .bar { 
 
-    width: 28px; 
+    width: 38px; 
 
     position: absolute; 
 
